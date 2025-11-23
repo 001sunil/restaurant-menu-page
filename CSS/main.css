@@ -85,7 +85,7 @@ header {
 /* Hero Section */
 .hero-section {
     margin-top: 14px;
-    background-image: url('Image/background.jpeg');
+    background-image: url('../Assets/Image/background.jpeg');
     opacity: 0.7;
     background-size: cover;
     background-position: center;
