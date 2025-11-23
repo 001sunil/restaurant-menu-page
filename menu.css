@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cfcdcd;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    max-width: 700px;
+    width: 90%;
+    margin: 40px auto;
+    background-color: #bcbcbc;
+    padding: 60px 50px;
+    border-radius: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: none;
+}
+
+.menu-header::before,
+.menu-header::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+
+.menu-header h1 {
+    font-size: 4em;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-header p {
+    font-style: normal;
+    color: #000000;
+    font-size: 0.9em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.menu-section {
+    margin-bottom: 0;
+}
+
+.section-title {
+    display: none;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.item-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.item-name {
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.item-description {
+    display: none;
+}
+
+.item-price {
+    font-size: 1em;
+    color: #000000;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.item-name::after {
+    content: ".....................................................";
+    letter-spacing: 2px;
+    color: #555;
+    margin: 0 10px;
+}
